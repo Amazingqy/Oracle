@@ -24,7 +24,7 @@ SQL> exit</pre></code>
 #### 第二步:
 使用新用户连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户</br>
 
-<pre><code>$ sqlplus xiaoqingyu/123@pdborcl
+<pre><code>$ sqlplus qiuyu/123@pdborcl
 SQL> show user;
 USER is "NEW_USER"
 SQL> CREATE TABLE mytable (id number,name varchar(50));
