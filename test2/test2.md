@@ -50,7 +50,7 @@ SQL>exit
 #### 第三步：
 用户hr连接到pdborcl，查询新用户授予它的视图myview
 <pre><code>$ sqlplus hr/123@pdborcl
-SQL> SELECT * FROM xiaoqingyu.myview;
+SQL> SELECT * FROM  qiuyu.myview;
 NAME
 --------------------------------------------------
 zhang
