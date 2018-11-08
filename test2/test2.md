@@ -6,7 +6,7 @@
 #### 第一步：
 以system登录到pdborcl，创建角色qy和用户qiuyu ，并进行授权和分配空间</br>
 <pre><code>$ sqlplus system/123@pdborcl
-SQL> CREATE ROLE con_res_view;
+SQL> CREATE ROLE qy;
 Role created.
 SQL> GRANT connect,resource,CREATE VIEW TO qy;
 Grant succeeded.
