@@ -1,12 +1,12 @@
 ### 创建角色和用户
 用户：qiuyu</br>
-角色：qy</br>
+角色：qqy</br>
 密码:123</br></br></br></br>
 
 #### 第一步：
 以system登录到pdborcl，创建角色qy和用户qiuyu ，并进行授权和分配空间</br>
 <pre><code>$ sqlplus system/123@pdborcl
-SQL> CREATE ROLE qy;
+SQL> CREATE ROLE qqy;
 Role created.
 SQL> GRANT connect,resource,CREATE VIEW TO qy;
 Grant succeeded.
@@ -14,7 +14,7 @@ SQL> CREATE USER qiuyu IDENTIFIED BY 123 DEFAULT TABLESPACE users TEMPORARY TABL
 User created.
 SQL> ALTER USER qiuyu QUOTA 50M ON users;
 User altered.
-SQL> GRANT qy TO new_user;
+SQL> GRANT qqy TO qiuyu;
 Grant succeeded.
 SQL> exit</pre></code>
 
@@ -26,7 +26,7 @@ SQL> exit</pre></code>
 
 <pre><code>$ sqlplus qiuyu/123@pdborcl
 SQL> show user;
-USER is "NEW_USER"
+USER is "QIUYU"
 SQL> CREATE TABLE mytable (id number,name varchar(50));
 Table created.</br>
 SQL> INSERT INTO mytable(id,name)VALUES(1,'zhang');
