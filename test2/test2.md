@@ -4,7 +4,7 @@
 密码:123</br></br></br></br>
 
 #### 第一步：
-以system登录到pdborcl，创建角色qy和用户qiuyu ，并进行授权和分配空间</br>
+以system登录到pdborcl，创建角色qqy和用户qiuyu ，并进行授权和分配空间</br>
 <pre><code>$ sqlplus system/123@pdborcl
 SQL> CREATE ROLE qqy;
 Role created.
