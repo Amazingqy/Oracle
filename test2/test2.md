@@ -8,7 +8,7 @@
 <pre><code>$ sqlplus system/123@pdborcl
 SQL> CREATE ROLE qqy;
 Role created.
-SQL> GRANT connect,resource,CREATE VIEW TO qy;
+SQL> GRANT connect,resource,CREATE VIEW TO qqy;
 Grant succeeded.
 SQL> CREATE USER qiuyu IDENTIFIED BY 123 DEFAULT TABLESPACE users TEMPORARY TABLESPACE temp;
 User created.
