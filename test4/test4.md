@@ -1,3 +1,15 @@
 ### 用户名：qiuyu
 ### 角色：qqy
 ### 密码：123
+
+
+## 为用户分配表空间
+<pre><code>ALTER USER qiuyu QUOTA UNLIMITED ON USERS;
+ALTER USER qiuyu QUOTA UNLIMITED ON USERS02;
+ALTER USER qiuyu QUOTA UNLIMITED ON USERS03;
+ALTER USER qiuyu ACCOUNT UNLOCK;</code></pre>
+
+## 为用户分配权限
+<pre><code>GRANT "CONNECT" TO qiuyu WITH ADMIN OPTION;
+GRANT "RESOURCE" TO qiuyu WITH ADMIN OPTION;
+ALTER USER qiuyu DEFAULT ROLE "CONNECT","RESOURCE";</code></pre>
