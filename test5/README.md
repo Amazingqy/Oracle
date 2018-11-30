@@ -55,7 +55,7 @@ create or replace PACKAGE BODY MyPack IS
     END;
 END MyPack;
 ```
-![](https://github.com/Amazingqy/Oracle/tree/master/test5/1.png)
+![](https://github.com/Amazingqy/Oracle/blob/master/test5/1.png)
 #### 调用函数及过程
 ```
 select count(*) from orders;
@@ -72,4 +72,4 @@ BEGIN
 END;
 ```
 #### 结果
-![](https://github.com/Amazingqy/Oracle/tree/master/test5/2.png)
+![](https://github.com/Amazingqy/Oracle/blob/master/test5/2.png)
