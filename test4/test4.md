@@ -20,7 +20,7 @@ ALTER USER qiuyu DEFAULT ROLE "CONNECT","RESOURCE";</code></pre>
 ![](https://github.com/Amazingqy/Oracle/blob/master/test4/%E7%BB%93%E6%9E%9C2.png)
 
 ## 系统分配权限
-<pre><code>GRANT CREATE VIEW TO xiaoqingyu WITH ADMIN OPTION;</code></pre>
+<pre><code>GRANT CREATE VIEW TO qiuyu WITH ADMIN OPTION;</code></pre>
 结果：<br>
 ![](https://github.com/Amazingqy/Oracle/blob/master/test4/%E7%BB%93%E6%9E%9C3.png)
 ## 表和相应触发器、序列、视图
